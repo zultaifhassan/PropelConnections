@@ -1,0 +1,84 @@
+.outer-mainsection-home {
+  background: #f5f7fab2;
+  width: 100%;
+}
+
+.inner-mainsection-home {
+  width: 90%;
+  margin: auto;
+  padding: 108px 0px 180px 100px;
+  display: flex;
+}
+
+.mainsection-leftside {
+  width: 60%;
+}
+
+.mainsection-leftside h1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+}
+
+.mainsection-leftside h1 span {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+}
+
+.mainsection-leftside p {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  color: #717171;
+  margin-top: 16px;
+}
+
+.mainsection-search-bar {
+  display: flex;
+}
+
+.mainsection-search-bar .search-bar-icon {
+  border: 1px solid #000000;
+  padding: 10px 10px;
+  width: 40%;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mainsection-search-bar .search-bar-icon input {
+  border: none;
+  width: 90%;
+  outline: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13px;
+}
+
+.mainsection-search-bar .search-bar-address {
+  display: flex;
+  padding: 0px 17px;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid #000000;
+  gap: 5px;
+}
+
+.mainsection-search-bar button {
+  background: #256cf9;
+  padding: 14px 32px;
+  margin-top: 24px;
+  margin-left: 20px;
+  border: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+}
